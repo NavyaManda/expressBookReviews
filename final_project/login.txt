@@ -1,0 +1,12 @@
+theia@theia-navy
+amanda:/home/pro
+ject$ curl -X POST http://localhoscurl -X POST http://localhost:5
+000/register \pe: appli
+-H "Content-Type: application/json" \":"navya"
+-d '{"username":"navya","password":"123"}'
+{"message":"User successfully registered. Now you can login"}theia@theia-navyamanda:
+/home/project$ curlct$ curl -X POST http://localhost:5000/customer/login \ontent-Type: appli
+-H "Content-Type: application/json" \":"navya"
+-d '{"username":"navya","password":"123"}'
+{"message":"User successfully logged in"}theia@theia-navyamanda:
+/home/project$ 

@@ -1,0 +1,5 @@
+amanda:/home/project$ c
+url -X POST http://localhost:5000/register -H "Content-Type: application/json" -d '{"username":"navya","password":"password123"}'
+{"message":"User successfully registered. Now you can login"}theia@theia-navy
+amanda:/home/pro
+ject$ 

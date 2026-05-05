@@ -1,0 +1,13 @@
+anda:/home/project$
+ curl -X POST http://localhost:5000/register \
+-H "Content-Type: application/json" \ 
+-d '{"username":"navya","password":"123"}'
+{"message":"User successfully registered. Now you can login"}theia@theia-navyamanda:/home/project$
+ curl -X POST http://localhost:5000/customer/login \
+-H "Content-Type: application/json" \ 
+-d '{"username":"navya","password":"123"}' \
+-c cookies.txt
+{"message":"User successfully logged in"}theia@theia-navyamanda:/home/project$
+ curl -X PUT "http://localhost:5000/customer/auth/review/1?review=Great%20book" \
+-b cookies.txt
+{"message":"Review successfully posted"}theia@theia-navyamanda:/home/project$

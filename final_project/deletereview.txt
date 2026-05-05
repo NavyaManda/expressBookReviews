@@ -1,0 +1,42 @@
+theia@theia-navyama
+curl -X POST http://localhost:5000/cucurl -X POST http://localhost:5000/customer/login \pe: application/json" \
+-H "Content-Type: application/json" \ d '{"username":"navya","password":"1
+-d '{"username":"navya","password":"123"}' \ies.txt
+-c cookies.txt
+{"message":"Invalid Login. Check username and password"}theia@theia-navyamanda:/home/project$
+ curl -X POST http://localhost:5000/register \
+-H "Content-Type: application/json" \ 
+-d '{"username":"navya","password":"123"}'
+{"message":"User successfully registered. Now you can login"}theia@theia-navyamanda:/home/project$
+ curl -X POST http://localhost:5000/customer/login \
+-H "Content-Type: application/json" \ 
+-d '{"username":"navya","password":"123"}' \
+-c cookies.txt
+{"message":"User successfully logged in"}theia@theia-navyamanda:/home/project$
+ curl -X PUT "http://localhost:5000/customer/auth/review/1?review=Great%20book" \
+-b cookies.txt
+{"message":"Review successfully posted"}theia@theia-navyamanda:theia@theia-navyamanda:/home/project$
+ curl
+ -X DELETE http://localhost:5000/customer/auth/review/1 \
+-b cookies.txt
+{"message":"User not logged in"}theia@theia-navyamand
+a:/home/project$ curl -X POST http://localhost:5000/register \
+-H "Content-Type: application/json" \
+-d '{"username":"navya","password":"123"}'
+{"message":"User successfully registered. Now you can login"}theia@theia-navyamand
+a:/home/projecm/home/project$ curl -X POST http://localhost:5000/customer/login \
+-H "Content-Type: application/json" \
+-d '{"username":"navya","password":"123"}' \
+-c cookies.txt
+{"message":"User successfully logged in"}theia@theia-navyamand
+a:/home/projecm/home/project$ curl -X DELETE http://localhost:5000/customer/auth/review/1 \ies.txt
+-b cookies.txt
+{"message":"Review not found for thistheia@theia-navyamandvyamand
+a:/home/project$ curl -X PUT "http://localhost:5000m/home/project$ curl -X PUT "http://localhost:5000/cGreat%20
+ustomer/auth/review/1?review=Great%20book" \ies.txt
+-b cookies.txt
+{"message":"Review successfully posted"}theia@theia-navyamanda:/home/project$
+ curl -X DELETE http://localhost:5000/customer/auth/review/1 \
+-b cookies.txt
+{"message":"Review deleted successfully"}theia@theia-navyamanda:/home/project$
+ 
